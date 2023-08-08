@@ -1,8 +1,10 @@
-# Jax Parallel Versus Sequential
-Implementation and comparison of sequential and parallel algoritms in Jax. The sequential algorithms are run on CPUs. The parallel ones use TessellateIPU to leverage the 8832 independent threads on the 1472 tiles within a single IPU chip.
+# Jax Parallel Graphs (JaxPG)
+Implementation of algorithms of distributed nature, the emphasis on graph algorithms, and the specific utilization of Jax and Graphcore's IPU.
 
-## Problems
+## Algorithms
 - Vertex Coloring
-- Flooding
-- Breadth-First Spanning Tree
-- 
+- Flooding & Convergecast
+- Breadth-First Spanning Tree (BFST)
+- Minimum Spanning Tree (MST)
+- Leader Election
+- Sorting Networks
