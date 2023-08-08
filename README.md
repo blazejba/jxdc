@@ -1,4 +1,4 @@
-# Jax Parallel Graphs (JaxPG)
+# JxPG: Jax Parallel Graphs
 Implementation of algorithms of distributed nature, the emphasis on graph algorithms, and the specific utilization of Jax and Graphcore's IPU.
 
 ## Algorithms
